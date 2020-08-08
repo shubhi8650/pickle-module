@@ -1,6 +1,8 @@
 import requests
 import pickle
 
+#this link is from IRIS DATASET FROM  machine learning
+
 r  = requests.get('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data').text
 
 
